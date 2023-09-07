@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Cadastro SaúdeFarma </title>
+    <link rel="stylesheet" href="/Css/styleLista2.css">
+</head>
+<body class="fundo">
+   <h1 id="titulo">Cadastro de novos Clientes</h1>
+   <p> <strong>Página do Operador</strong> </p> <br>
+   <div class="form-container">
+        <form id="client-form">
+            <input type="text" id="name-client" placeholder="Nome do cliente" required>
+            <input type="text" id="end-client" placeholder="Endereço" required> <br>
+            <input type="number" id="tel-client" placeholder="Número de Telefone  (apenas num)" required><br>
+            <button type="submit">Finalizar Operação</button>
+        </form>
+   </div>
+
+    <div class="client-list">
+        <h2 id="subtitulo"> Clientes já Cadastrados </h2>
+        <ul id="client-list">
+            <!-- os novos clientes aparecerão aq -->
+        </ul>
+    </div>
+    <script src="/JavaScript/Lista2.js"></script>
+
+    <footer class="footer"></footer>
+</body>
+</html>
